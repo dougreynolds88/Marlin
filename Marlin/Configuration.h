@@ -1367,9 +1367,9 @@
 
 // For Inverting Stepper Enable Pins (Active Low) use 0, Non Inverting (Active High) use 1
 // :{ 0:'Low', 1:'High' }
-#define X_ENABLE_ON 1
-#define Y_ENABLE_ON 1
-#define Z_ENABLE_ON 1
+#define X_ENABLE_ON 0
+#define Y_ENABLE_ON 0
+#define Z_ENABLE_ON 0
 #define E_ENABLE_ON 0 // For all extruders
 //#define I_ENABLE_ON 0
 //#define J_ENABLE_ON 0
@@ -1395,9 +1395,9 @@
 // @section machine
 
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
-#define INVERT_X_DIR false
-#define INVERT_Y_DIR false
-#define INVERT_Z_DIR false
+#define INVERT_X_DIR true
+#define INVERT_Y_DIR true
+#define INVERT_Z_DIR true
 //#define INVERT_I_DIR false
 //#define INVERT_J_DIR false
 //#define INVERT_K_DIR false
